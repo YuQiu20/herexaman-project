@@ -13,7 +13,7 @@ namespace Demo_COM_port_5
         private readonly byte[] dmxData = new byte[513]; // startcode + 512 DMX-kanalen
         private readonly DispatcherTimer dmxTimer;
 
-        // Nieuw: kleurcyclus groen ↔ rood
+        // kleurcyclus groen ↔ rood
         private readonly DispatcherTimer colorCycleTimer = new DispatcherTimer();
         private bool cycleGreen = true;           // true = groen, false = rood
         private bool _programmaticUpdate = false; // voorkomt dubbele slider-events bij set via timer
