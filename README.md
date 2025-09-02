@@ -10,3 +10,23 @@ voor 3D ontwerp kwam mijn idee eerst van een scharnier, het is een doosje met ee
 er zijn in de doos 4 staven voorzien dat het pcb bordje vast houd als je het doosje toe doet en de klik-systeem zorgt er voor dat het doosje niet van zelf open gaat.
 als programma heb ik verder opgebouwd op de programma dat aanwezig op toledo van meneer Buysshaert, hiermee zorg ik ervoor dat ik de dmx kan aansturen via mijn computer, er zijn 2 knoppen aanwezig voor alle les te laten braden en alles uit laten gaan.
 er zijn ook sliders aanwezig dat voor de kleuren rood groen en blauw en ten laatste is er ook een timer dat de dmx groen kleurt en dan rood een zogezegde start stop.
+
+start up------------------------
+als de programma start dan kan je de com-poort selectern en als je de verkeerde com-poort selecteer zal het een melding geven dat het niet kan verbinden
+
+RGB sliders-------------------------
+met de slider in de programma kan je elke led een kleur geven zoals rood groen blauw
+
+3 knoppen--------------------------
+er zijn 3 geknoppen geprogrameerd 1 voor alle led aan te laten branden op wit
+1 voor alles uit dus alles op 0 zetten
+en er is een 3e knop voor kleurcyclus voor groen naar rood en omgekeerd met een tijd dat je kan invullen in ms
+alle slider bewegen dan mee als we door de kleurcyclus gaan.
+
+componentn--------------
+FT230XS-R
+ADM3585EARZ
+XLR socket
+weerstanden SMD van 10k, 27Ohm en 120Ohm
+condensatoren SMD van 47pF, 4.7pF 10nF en 100nF
+pin contact 1x2
